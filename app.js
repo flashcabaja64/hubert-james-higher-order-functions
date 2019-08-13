@@ -12,6 +12,7 @@
 //     console.log("Goodbye world")
 // }, 5));
 
+
 // function filter(arr, fn) {
 //     let newArray=[]
 //     for(let i=0; i< arr.length; i++){
@@ -28,4 +29,5 @@
 // })
 
 // console.log(filteredNames)
+
 

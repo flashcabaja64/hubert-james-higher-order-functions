@@ -34,7 +34,7 @@
 //     let warningCounter = 0;
 //     return function(location){
 //         warningCounter++;
-//         console.log(`DANGER! There is a ${typeOfWarning} hazard alert has triggered ${warningCounter} time(s) today!`)
+//         console.log(`DANGER! There is a ${typeOfWarning} hazard alert has at ${location} triggered ${warningCounter} time(s) today!`)
 //     }
 // }
 
@@ -45,3 +45,14 @@
 
 // console.log(rocksWarning('Main St and Pacific Ave'));
 // console.log(rocksWarning('Western St and Lexington Ave'));
+
+
+// let turtleSteps=[[0, 0], [0,5], [-1, -3], [3, 2], [-2, 5]]
+// path = turtleSteps.filter(steps => steps[0] >= 0 && steps[1] >= 0);
+
+// totalSteps = turtleSteps.map(steps => steps[0] + steps[1])
+
+// totalSteps.forEach((totalSteps, idx) => console.log(`Movement #${idx}: ${totalSteps} steps`))
+
+// console.log(path)
+// console.log(totalSteps)

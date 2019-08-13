@@ -30,4 +30,18 @@
 
 // console.log(filteredNames)
 
+// function hazardWarningCreator(typeOfWarning){
+//     let warningCounter = 0;
+//     return function(location){
+//         warningCounter++;
+//         console.log(`DANGER! There is a ${typeOfWarning} hazard alert has triggered ${warningCounter} time(s) today!`)
+//     }
+// }
 
+// const rocksWarning = hazardWarningCreator('Rocks on the Road');
+// const slipperyWarn = hazardWarningCreator('Slippery Road');
+// const deadEndWarning = hazardWarningCreator('Dead End Ahead');
+
+
+// console.log(rocksWarning('Main St and Pacific Ave'));
+// console.log(rocksWarning('Western St and Lexington Ave'));

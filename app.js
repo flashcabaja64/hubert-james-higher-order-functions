@@ -56,3 +56,17 @@
 
 // console.log(path)
 // console.log(totalSteps)
+
+
+const sentence = 'noggin oreo the moon time tele steed his tent apollo her lives though shoo tofu budapest'
+const sentArr = sentence.split(" ");
+const decoded = sentArr.reduce((letter, word) => {
+    if(word.length === 3){
+        return letter + ' '
+    }
+    else{
+        return letter + word[word.length - 1].toUpperCase();
+    }
+}, "")
+
+console.log(decoded)
